@@ -2,6 +2,7 @@
 
 namespace LeetCode_Tasks
 {
+    //https://leetcode.com/problems/merge-two-binary-trees/
     public class MergeTwoBinaryTrees
     {
         public TreeNode? MergeTrees(TreeNode? root1,
