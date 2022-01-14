@@ -9,7 +9,7 @@
             var result = new int[encoded.Length + 1];
             result[0] = first;
 
-            for (var i = 0; i < encoded.Length - 1; i++)
+            for (var i = 0; i <= encoded.Length - 1; i++)
             {
                 result[i + 1] = encoded[i] ^ result[i];
             }
