@@ -9,7 +9,7 @@ namespace LeetCode_Tasks
         {
             var sw = new Stopwatch();
             sw.Start();
-            var result = ReverseWordsInAStringIII.ReverseWords("Let's take LeetCode contest");
+            var result = NumberOfStepsToReduceANumberToZero.NumberOfSteps(123);
             sw.Stop();
 
             Console.WriteLine(result);
