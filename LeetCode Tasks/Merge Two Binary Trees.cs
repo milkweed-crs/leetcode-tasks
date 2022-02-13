@@ -16,8 +16,8 @@ namespace LeetCode_Tasks
                 return root1;
 
             return new TreeNode(root1.Val + root2.Val, 
-                                MergeTrees(root1.Left, root2.Left), 
-                                MergeTrees(root1.Right, root2.Right));
+                                MergeTrees(root1.left, root2.left), 
+                                MergeTrees(root1.right, root2.right));
         }
     }
 }

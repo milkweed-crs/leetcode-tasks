@@ -20,12 +20,12 @@ namespace LeetCode_Tasks
                 while (current != null)
                 {
                     stack.Push(current);
-                    current = current.Left;
+                    current = current.left;
                 }
 
                 current = stack.Pop();
                 result.Add(current.Val);
-                current = current.Right;
+                current = current.right;
             }
 
             return result;

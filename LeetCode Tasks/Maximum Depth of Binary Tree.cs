@@ -10,7 +10,7 @@ namespace LeetCode_Tasks
         {
             return root == null
                 ? 0
-                : Math.Max(MaxDepth(root.Left), MaxDepth(root.Right)) + 1;
+                : Math.Max(MaxDepth(root.left), MaxDepth(root.right)) + 1;
         }
     }
 }

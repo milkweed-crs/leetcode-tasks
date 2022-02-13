@@ -16,7 +16,7 @@ namespace LeetCode_Tasks
                 ? root.Val
                 : 0;
 
-            return RangeSumBST(root.Left, low, high) + value + RangeSumBST(root.Right, low, high);
+            return RangeSumBST(root.left, low, high) + value + RangeSumBST(root.right, low, high);
         }
     }
 }
